@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     margin-left: 8.57%;
     margin-right: 8.57%;
 }
@@ -83,6 +83,8 @@ body {
     background-color: #F5032E;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
+    display: flex;
+    flex-direction: column;
     /* border: 2px solid red; */
     /* margin-top: 51px; */
     /* border-radius: 25px; */
@@ -91,7 +93,8 @@ body {
 .text-in-rect {
     font-weight: 500;
     font-size: 14px;
-    color: #FFF;
+    line-height: 16px;
+    color: #FFFFFF;
 }
 
 .details-info {
