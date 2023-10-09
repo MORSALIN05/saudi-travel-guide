@@ -39,22 +39,33 @@ body {
     background-color: #F5032E;
     width: 154px;
     height: 62px;
+    border: none;
     border-radius: 50px;
-    padding: 0px;
-
 }
 
 .contact-btn-xplore {
-    font-family: 'poppins', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
-    font-size: 18px;
+    font-size: 22px;
+    line-height: 33px;
     color: white;
     background-color: #F5032E;
     width: 220px;
     height: 80px;
     border-radius: 15px;
-    padding: 0px;
+    border: none;
 
+}
+
+.select-custom {
+    color: black;
+    background-color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'poppins';
+    justify-items: start;
 }
 
 .care-class {
@@ -87,6 +98,9 @@ body {
     font-weight: 500;
     font-size: 14px;
     color: #C5C5C5;
+    line-height: 21px;
+    font-family: 'poppins';
+    margin: 0px;
 }
 
 .text-in-p {
